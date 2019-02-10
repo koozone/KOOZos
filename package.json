@@ -2,16 +2,27 @@
   "name": "koozos",
   "version": "1.0.0",
   "description": "KOOZos",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
+  "author": "koozone",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "jquery": "^3.3.1",
     "pug": "^2.0.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koozone/KOOZos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koozone/KOOZos/issues"
+  },
+  "homepage": "https://github.com/koozone/KOOZos#readme"
 }
